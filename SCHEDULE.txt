@@ -1,0 +1,82 @@
+Disp "SCHEDULE","CODED BY","DEVEN BLAKE 2018
+Pause 
+ClrHome
+
+//Menu
+Lbl M
+0→Z
+Menu("LHS SCHEDULE","VIEW SCHEDULE",A,"EDIT SCHEDULE",B,"QUIT",C
+Stop
+
+//View
+Lbl A
+ClrHome
+For(A,1,8
+ "!D:→Str1
+ A
+ Asm(prgmLBLRW
+ Output(A,1,Ans
+ End
+0
+While Ans≠21
+ getKey
+ If Ans≠0
+  Output(8,1,"2ND TO QUIT     
+Goto M
+ 
+//Edit
+Lbl B
+ClrHome
+Output(1,1,"1-8 TO EDIT
+Output(2,1,"OTHERS TO QUIT
+0→A
+0
+While Ans=0
+ getKey
+ If Ans=72
+  7→A
+ If Ans=73
+  8→A
+ If Ans=82
+  4→A
+ If Ans=83
+  5→A
+ If Ans=84
+  6→A
+ If Ans=92
+  1→A
+ If Ans=93
+  2→A
+ If Ans=94
+  3→A
+ End
+If A=0
+ Goto M
+ClrHome
+Disp "ENTER NEW DATA
+Input "",Str1
+"D:"+Str1→Str1
+A
+Asm(prgmLBLRW
+ClrHome
+Disp "DATA CHANGED!
+While Ans≠21
+ getKey
+ End
+Goto M
+
+//Quit
+Lbl C
+ClrHome
+Stop
+
+//Data
+Lbl D
+PERIOD ONE
+PERIOD TWO
+PERIOD THREE
+PERIOD FOUR
+PERIOD FIVE
+PERIOD SIX
+PERIOD SEVEN
+PERIOD EIGHT
