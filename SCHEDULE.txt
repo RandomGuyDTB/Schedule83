@@ -22,6 +22,7 @@ While Ans≠21
  getKey
  If Ans≠0
   Output(8,1,"2ND TO QUIT     
+ End
 Goto M
  
 //Edit
