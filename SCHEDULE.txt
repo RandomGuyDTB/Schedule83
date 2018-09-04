@@ -69,6 +69,7 @@ Goto M
 //Quit
 Lbl C
 ClrHome
+"
 Stop
 
 //Data
