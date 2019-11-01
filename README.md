@@ -16,4 +16,4 @@ A schedule app for the TI-83/84(+) I use daily.
 08. Copy LBLRW and SCHEDULE to your calculator.
 09. Wait for the copy process to finish and wait an additional ten seconds for TI-Connect to finish calibration.
 10. Unplug your calculator.
-11. Enjoy your game!
+11. Enjoy.
