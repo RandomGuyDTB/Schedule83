@@ -2,7 +2,7 @@
 A schedule app for the TI-83/84(+) I use daily.
 
 ### Required software:
-- [LBLWR](https://www.ticalc.org/archives/files/fileinfo/470/47097.html) (credit to [Zeda Thomas](https://www.ticalc.org/archives/files/authors/106/10625.html))
+- [LBLWR](https://www.ticalc.org/archives/files/fileinfo/470/47097.html) (credit to [Zeda Thomas](https://github.com/Zeda) (they were also the first star on the project!))
 - [TI-Connect](https://education.ti.com/en/products/computer-software/ti-connect-sw "ti.com")
 
 ### Installing a release:
